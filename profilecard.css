@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #606066;
+}
+
+.profile-card {
+    background-color:#0073b1 ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.full-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.job-title {
+    color: rgba(51, 11, 51, 0.897);
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.short-bio,
+.current-location,
+.email-address,
+.social-links a {
+    display: block;
+    margin: 10px 0;
+}
+
+.social-links a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.social-links a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.current-time-utc {
+    margin-top: 20px;
+    font-weight: bold;
+}
